@@ -10,8 +10,7 @@ Component {
 
 render() {
  return (
-    <div> {Array.from(this.props.value).map((c, i) => 
-    <CharacterCard value={c} key={i} 
+    <div> {Array.from(this.props.value).map((c, i) =><CharacterCard value={c} key={i} attempt={this.state}
       activationHandler={this.activationHandler}  />)} 
      </div>
  );
