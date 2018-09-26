@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
+import card from './App.css';
 
-
-export default 
-
-class CharacterCard extends Component {
+export default class CharacterCard extends Component {
     render(){
     return (
-    <div>
+
+        
+    <div>{this.props.value}
+
     
-    {this.props.value}
-            
-          {this.props.card}
+          <h1 className={card}></h1>  
+         
+          
           </div>
     )
     }
    }
-
-   
    
    
