@@ -31,6 +31,10 @@
  user-select: none;
 vertical-align: 0%;
 }
+.activeCard {
+  color: red;
+  background: pink;
+ }
 
 
 @keyframes App-logo-spin {
